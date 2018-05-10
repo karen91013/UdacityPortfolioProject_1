@@ -1,0 +1,82 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img, embed, object, video {
+	max-width: 100%;
+	margin: 0px;
+}
+
+h1, h2, h3, p {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #212121;
+	font-size: 2em;
+	margin: 5px;
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1em;
+    color: #00a79d;
+}
+
+h3 {
+	margin-bottom: 0px;
+}
+
+p {
+	text-transform: uppercase;
+	font-weight: 100px;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+hr {
+	background-color: #8ecaad;
+	height: 3px;
+	border: 0px;
+	top-margin: 50px;
+	bottom-margin: 50px;
+	display: block;
+}
+
+
+/* header */
+.header {
+    min-height: 40px;
+    transition: min-height 0.3s;
+	vertical-align: top;
+}
+
+.header-logo {
+  	height: 72px;
+ 	margin-right: 1em;
+ 	vertical-align: top;
+ 	margin-top: 12px;
+}
+
+.header-text {
+  	display: inline-block;
+  	float: right;
+  	vertical-align: top;
+}
+
+/* featured work */
+.flex-grid {
+  	display: flex;
+}
+
+.column {
+  	flex: 1;
+  	margin:20px;
+}
+
+@media screen and (max-width: 800px) {
+.flex-grid {
+    display: block;
+  }
+}
